@@ -51,6 +51,9 @@ echo -n "Cleaning up"
 
 rm files.txt list.txt $metafile
 
+## Moving the videos to the Old folder
+mv Out-*.mp4 ./Old
+
 echo "..........[ DONE ]"
 
 echo "Job Completed."
