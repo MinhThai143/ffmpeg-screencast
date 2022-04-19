@@ -33,13 +33,13 @@ and there you need to run the following scripts in the following order:
 
 ./rec.sh
 <br> <br/>
-./join.sh
+./merge-mp4.sh
 <br> <br/>
 
 Just learn them by heart so that you write them and execute them with ENTER, they are used to:
 
-* ./record.sh Used to record the desktop using FFmpeg. To pause the recording use "Ctrl + C". To continue the recording use the up arrow on your keyboard so that ./rec.sh appears again to save time
-* ./join.sh It is used to join all the videos that have been created when you stopped FFmpeg. They will be saved in "videos" folder
+* ./rec.sh Used to record the desktop using FFmpeg. To pause the recording use "Ctrl + C". To continue the recording use the up arrow on your keyboard so that ./rec.sh appears again to save time
+* ./merge-mp4.sh It is used to join all the videos that have been created when you stopped FFmpeg. They will be saved in "videos" folder
 
 
 **Other FFmpeg options**
@@ -72,13 +72,13 @@ y allí debe ejecutar los siguientes scripts en el orden siguiente:
 
 ./rec.sh
 <br> <br/>
-./join.sh
+./merge-mp4.sh
 <br> <br/>
 
 Sólo aprendaselos de memoria para que los escriba y los ejecute con ENTER, sirven para:
 
-* ./record.sh Sirve para Grabar el escritorio usando FFmpeg. Para pausar la grabación use "Ctrl + C". Para continuar la grabación use la flecha arriba de su teclado para que otra vez aparezca: ./rec.sh para ahorrar tiempo (ejecutelo otra vez)
-* ./join.sh Sirve para unir todos los videos que se hayan creado al usted detener FFmpeg. Se guardarán en "videos"
+* ./rec.sh Sirve para Grabar el escritorio usando FFmpeg. Para pausar la grabación use "Ctrl + C". Para continuar la grabación use la flecha arriba de su teclado para que otra vez aparezca: ./rec.sh para ahorrar tiempo (ejecutelo otra vez)
+* ./merge-mp4.sh Sirve para unir todos los videos que se hayan creado al usted detener FFmpeg. Se guardarán en "videos"
 
 
 **Otras opciones para FFmpeg**
