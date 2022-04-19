@@ -56,7 +56,6 @@ rm files.txt list.txt $metafile
 
 ## Moving the videos to the Old folder
 mv Out-*.mp4 ./Old
-cd ..
 
 ## Moving joined videos to the Video folder
 mv ffmpeg-screncast.mp4 ./Videos/"Rec-$(date '+%Y-%m-%d_%H.%M.%S').mp4"
