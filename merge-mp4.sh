@@ -9,8 +9,8 @@
 filename=`basename pwd`
 current=`pwd`
 bname=`basename "$current"`
-find . -maxdepth 2 -iname '*.mp4' | xargs -L 1 echo | awk '{printf "file \x27%s\x27\n", $0}' >> list.txt
-find . -maxdepth 2 -iname '*.mp4' | xargs -L 1 echo | awk '{print $0}' >> files.txt
+find . -maxdepth 1 -iname '*.mp4' | xargs -L 1 echo | awk '{printf "file \x27%s\x27\n", $0}' >> list.txt
+find . -maxdepth 1 -iname '*.mp4' | xargs -L 1 echo | awk '{print $0}' >> files.txt
 echo -n "Merging the files"
 ffmpeg -f concat -safe 0 -i list.txt -c copy "$bname.mp4" -v quiet
 echo "..........[ DONE ]"
