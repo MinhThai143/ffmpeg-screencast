@@ -3,6 +3,9 @@
 ## Script to merge all mp4 videos in current directory (recursively 2 levels)
 ## And update chapter marks to retain the folder/filename
 
+## Thanks to palaniraja for this script from:
+## https://gist.github.com/palaniraja/d14ba9ac49019526e0774b28e2d71b16
+
 ## Script for merging videos
 
 
