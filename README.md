@@ -5,6 +5,10 @@ This idea come from:
 
 https://github.com/raviraa/ffmpegui
 
+Thanks to palaniraja for creating the Bash script: "merge-mp4.sh" to join mp4 videos:
+
+https://gist.github.com/palaniraja/d14ba9ac49019526e0774b28e2d71b16
+
 
 
 **Dependencias**
