@@ -50,7 +50,7 @@ To join the videos, put on merge-mp4.sh and ENTER. The videos will be united in 
 
 ## To use in some terminal
 
-To use some terminal, just learn them by heart so that you write them and execute them with ENTER, they are used to:
+To use other terminal, just learn them by heart so that you write them and execute them with ENTER, they are used to:
 
 * ./rec.sh Used to record the desktop using FFmpeg. To pause the recording use "Ctrl + C". To continue the recording use the up arrow on your keyboard so that ./rec.sh appears again to save time
 * ./merge-mp4.sh It is used to join all the videos that have been created when you stopped FFmpeg. They will be saved in "videos" folder
